@@ -10,9 +10,6 @@ body {
 img {
   width: 500
 }
-ul.a {
-  list-style-type: circle;
-}
 
 .simple-subscription-form {
   background: $subscription-form-bg;
