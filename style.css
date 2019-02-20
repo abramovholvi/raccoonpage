@@ -13,3 +13,27 @@ img {
   margin-right: auto
 }
 
+
+.simple-subscription-form {
+  background: $subscription-form-bg;
+  color: $subscription-form-color;
+  padding: $subscription-form-padding;
+  border-radius: $global-radius;
+
+  .button {
+    margin-bottom: 0;
+    border-radius: 0 $global-radius $global-radius 0;
+  }
+}
+
+.simple-subscription-form {
+  background: #0c3e5f;
+  color: #fefefe;
+  padding: 2rem;
+  border-radius: 0;
+}
+
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
