@@ -8,10 +8,12 @@ body {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+  width: 500
 }
+
+$subscription-form-bg: darken($primary-color, 20%);
+$subscription-form-color: $white;
+$subscription-form-padding: rem-calc(32);
 
 
 .simple-subscription-form {
@@ -19,6 +21,7 @@ img {
   color: $subscription-form-color;
   padding: $subscription-form-padding;
   border-radius: $global-radius;
+
 
   .button {
     margin-bottom: 0;
