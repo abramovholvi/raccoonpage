@@ -10,11 +10,9 @@ body {
 img {
   width: 500
 }
-
-$subscription-form-bg: darken($primary-color, 20%);
-$subscription-form-color: $white;
-$subscription-form-padding: rem-calc(32);
-
+ul.a {
+  list-style-type: circle;
+}
 
 .simple-subscription-form {
   background: $subscription-form-bg;
